@@ -6,6 +6,7 @@ Dependencies: jQuery
 
 Simple usage (see demo):
 
+<code>
 // To scrape images
 DOMScraper.scrapePage("http://news.google.com", "img", function(data){
 	for(var i=0; i<data.length;i++) {
@@ -14,3 +15,4 @@ DOMScraper.scrapePage("http://news.google.com", "img", function(data){
 
 	}
 });
+</code>
