@@ -14,11 +14,11 @@ var DOMScraper = {
 					foundEl.style.width ='';
 					foundEl.style.height ='';
 
-					var foundElements = {
+					var foundElement = {
 						el: foundEl
 					};
 
-					scrapedElements.push(foundElements);
+					scrapedElements.push(foundElement);
 				});
 
 				callback(scrapedElements);
