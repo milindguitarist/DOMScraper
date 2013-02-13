@@ -4,15 +4,12 @@ Useful for scraping elements off of a site (such as images). It returns an array
 
 Dependencies: jQuery
 
-Simple usage (see demo):
+Simple usage to scrape images (see demo):
 
-<code>
-// To scrape images
+<pre><code>
 DOMScraper.scrapePage("http://news.google.com", "img", function(data){
 	for(var i=0; i<data.length;i++) {
-
 		$('body').append(data[i].el);
-
 	}
 });
-</code>
+</code></pre>
